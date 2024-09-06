@@ -1,0 +1,434 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 5;
+   
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+    .header-text {
+        text-align: center;
+        align-items: center;
+        justify-content: space-between
+
+    }
+
+    display: flex;
+    height: 70px;
+    width: 100%;
+
+    .search {
+        margin-left: 20px;
+        align-items: center;
+        margin-top:9px;
+        width: 100px;
+        height: 36px;
+        background-color: rgb(237, 240, 240);
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+
+        i {
+            font-size: 0.5cm;
+        }
+    }
+
+    img {
+        background-color: black;
+
+
+        border-radius: 50px;
+        padding-top: 2px;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 20px;
+        box-shadow: rgb(0, 0, 0);
+
+
+    }
+
+    .header-text {
+        background-color: white;
+       
+        width: 100%;
+        align-items: center;
+        margin-top: 21px;
+        text-align: center;
+
+
+        nav {
+
+            display: inline;
+            display: flex;
+            margin-right: 40px;
+
+        }
+
+    }
+    .main{
+ 
+    }
+
+    .ms-1 {
+    
+        display: inline;
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+        .text-body-secondary {
+            align-items: center;
+            margin-top: 8px;
+            width: 50px;
+            height: 29px;
+            background-color: rgb(237, 240, 240);
+            border-radius: 50px;
+            align-items: center;
+            text-align: center;
+
+            i {
+                font-size: 0.5cm;
+            }
+
+        }
+
+        .ms-2 {
+            display: inline;
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+            .text-body-secondary {
+                align-items: center;
+                margin-top: 8px;
+                width: 50px;
+                height: 29px;
+                background-color: rgb(237, 240, 240);
+                border-radius: 50px;
+                align-items: center;
+                text-align: center;
+
+                i {
+                    font-size: 0.5cm;
+                }
+
+            }
+
+
+
+        }
+    }
+
+
+}
+main{
+    display: inline;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 4px;
+   
+
+    .header-text{
+        border-bottom: 1px ridge;
+        margin-top: 56px;
+      background-color: white;
+       
+       
+        align-items: center;
+        text-align: center;
+        display: inline;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      
+
+    }
+    .text-1{ margin-left: 2px;
+        align-items: center;
+        margin-top: 8px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(182, 235, 235);
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 8px;
+       border-bottom: 1px ridge;
+
+        
+    }
+    .text-2{ margin-left: 2px;
+        align-items: center;
+        margin-top: 8px;
+        width: 100px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 8px;
+       border-bottom: 1px ridge;
+
+        
+    }
+    .text-3{ margin-left: 2px;
+        align-items: center;
+        margin-top: 8px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(237, 240, 240);
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 8px;
+       border-bottom: 1px ridge;
+
+        
+    }
+    .text-4{ margin-left: 2px;
+        align-items: center;
+        margin-top: 8px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(237, 240, 240);
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 8px;
+       border-bottom: 1px ridge;
+
+        
+    }
+    .text-5{ margin-left: 2px;
+        align-items: center;
+        margin-top: 8px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(237, 240, 240);
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 8px;
+       border-bottom: 1px ridge;
+
+        
+    }
+    
+    
+    div:hover{
+        border-bottom: 2px solid rgba(216, 116, 17, 0.863);
+        .text-1{
+background-color: rgb(140, 229, 221);
+}
+
+        margin-top: 3px;
+        border-bottom: 1px ridge rgb(11, 12, 11);
+    
+    }
+    .text-2{
+        background-color: white;
+        }
+        .text-3{
+            background-color: white;
+            }
+            .text-4{
+                background-color: white;
+                }
+                .text-5{
+                    background-color: white;
+                    }
+           
+   
+
+}
+
+.grid-contener{
+    top: 0;
+    border-bottom: 0%;
+    margin-bottom: 0px;
+    
+    border-bottom: 1px ridge;
+    display: inline;
+    width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    .chat{
+        display: flex;
+        
+        .bi-chat-right{
+            text-align: center;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 9px;
+            i {
+                font-size: 0.5cm;
+            }
+
+        }
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        border-left-style: ridge;
+        margin-right: 6px;
+        margin-top: px;
+    }
+    .grid-contener{
+        background-color: blanchedalmond;
+display: flex;
+align-items: center;
+width: 100%;
+display: inline;
+    }
+    .grid-img{
+         .grid-text{
+        display: flex;
+        width: 100%;
+        display: inline;
+        background-color: rgb(196, 196, 255);
+    }
+
+        img{ background-color: black;
+
+
+            border-radius: 50px;
+        
+            height: 40px;
+            aspect-ratio: 1/1;
+            object-fit:cover;
+            margin-top: 5px;
+            margin-left: 20px;
+            box-shadow: rgb(0, 0, 0);
+    
+    
+
+        }
+       
+    }
+
+}
+
+.grid-text{
+   
+    display: flex;
+    width: 100%;
+    display: inline;
+    background-color: white;
+    margin-left: 29px;
+    .imog{
+
+        .imgoo{
+            color: black;
+            margin-left: 9px;
+        }
+    }
+
+h6{
+    margin-left: 1px;
+   
+    color: blueviolet;
+   
+    
+} 
+.imog{
+    width: 100%;
+    display: inline;
+    display: flex;
+    color: black;
+    
+}
+
+
+
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    .footer-text{
+       
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        i{
+            font-size: 0.5cm;
+        }
+        i.bi-play{
+           
+            font-size: 0.7cm;
+        }
+        .bi-geo-alt{
+          align-items: center;
+          text-align: center;
+          margin-top: 4px;
+          margin-bottom: 0%;
+          color: black;
+          background-color: white;
+        }
+        .bi-chat-right{
+            align-items: center;
+            text-align: center;
+            margin-top: 4px;
+            margin-bottom: 0%;
+            color: black;
+            background-color: white;
+          }
+          i.bi-camera{
+            align-items: center;
+            text-align: center;
+            margin-top: 4px;
+            margin-bottom: 0%;
+            color: black;
+            background-color: white;
+            font-size: 0.6cm;
+          }
+          i.bi-person{
+            font-size: 0.6cm;
+            align-items: center;
+            text-align: center;
+            margin-top: 4px;
+            margin-bottom: 0%;
+            color: black;
+            background-color: white;
+          }
+        .bi-play{
+           
+       
+            align-items: center;
+            text-align: center;
+            margin-top: 4px;
+            margin-bottom: 0%;
+            color: black;
+            margin-right: 5px;
+            
+          
+          }
+
+    }
+    
+}
+
+   
+    
+   
+ 
+
+
+  
+
+  
+   
